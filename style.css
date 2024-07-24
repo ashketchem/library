@@ -13,6 +13,10 @@ body {
   background-color: #f5f5f5;
 }
 
+.container {
+  text-align: center;
+}
+
 button {
   padding: 10px 20px;
   margin: 10px;
@@ -29,11 +33,13 @@ button:hover {
 
 dialog {
   padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
 }
 
 form label {
   display: block;
-  margin-top: 10px;
+  margin-top: 10px 0 5px;
 }
 
 form input[type="text"],
